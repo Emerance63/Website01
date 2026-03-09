@@ -90,6 +90,9 @@ body {
   text-align: center;
   font-size: medium;
   position: relative;
+  font-weight: 30px;
+  left: 20px;
+  right: 20px;
 }
 
 p {
@@ -154,3 +157,14 @@ p {
     padding: 10px;
   }
 }
+@media screen and  (max-width: 700px) {
+.topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+} 
